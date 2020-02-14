@@ -11022,5 +11022,84 @@ readers do not read off random characters that represent icons */
   .bootstrap-theme .humane-original.humane-original-js-animate:hover {
     opacity: 0.6;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60); }
+<<<<<<< HEAD
+=======
+  .bootstrap-theme .lightbox-opened .image-contextual-menu {
+    opacity: 0; }
+  .bootstrap-theme .lightbox-opened .image-contextual-menu {
+    display: none; }
+  .bootstrap-theme .image-contextual-menu {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    animation: slideIn 1 250ms;
+    transform-origin: top;
+    z-index: 100001;
+    background: #f9f9f9;
+    color: #222;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    white-space: nowrap; }
+    .bootstrap-theme .image-contextual-menu button, .bootstrap-theme .image-contextual-menu i {
+      user-select: none;
+      margin-bottom: 0;
+      background: transparent;
+      color: #222;
+      cursor: pointer; }
+    .bootstrap-theme .image-contextual-menu button {
+      font-family: "KGJune";
+      text-transform: uppercase;
+      height: 40px;
+      display: inline-block;
+      box-sizing: border-box;
+      border-radius: 15px;
+      font-size: 22px;
+      border: none;
+      line-height: 40px;
+      padding-left: 12px !important;
+      padding-right: 12px !important;
+      padding-left: 13px;
+      background: transparent;
+      box-shadow: none;
+      border-right: 1px solid rgba(255, 255, 255, 0.3); }
+      .bootstrap-theme .image-contextual-menu button:hover {
+        background: #ccc; }
+    .bootstrap-theme .image-contextual-menu i {
+      transition: 250ms ease;
+      line-height: 37px;
+      display: inline-block;
+      height: 38px;
+      box-sizing: border-box;
+      width: 35px;
+      text-align: center;
+      vertical-align: text-bottom;
+      border-radius: 3px; }
+      .bootstrap-theme .image-contextual-menu i.large {
+        font-size: 30px; }
+      .bootstrap-theme .image-contextual-menu i.medium {
+        font-size: 23px; }
+      .bootstrap-theme .image-contextual-menu i.ed {
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2) inset; }
+        .bootstrap-theme .image-contextual-menu i.ed:hover {
+          box-shadow: none; }
+    .bootstrap-theme .image-contextual-menu i.resize-image {
+      font-family: "generic-icons";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-image: none;
+      font-weight: normal !important; }
+      .bootstrap-theme .image-contextual-menu i.resize-image::before {
+        content: '\e929'; }
+  .bootstrap-theme .image-contextual-menu i:hover, .bootstrap-theme .image-contextual-menu i.selected {
+    background: #ddd; }
+  .bootstrap-theme .image-contextual-menu button:hover {
+    color: #222; }
+  @media screen and (max-width: 800px) {
+    .bootstrap-theme body .image-contextual-menu {
+      pointer-events: none; }
+      .bootstrap-theme body .image-contextual-menu button, .bootstrap-theme body .image-contextual-menu i {
+        pointer-events: all; } }
+>>>>>>> feat: Add image contextual menu
 
 /*# sourceMappingURL=index.css.map */
