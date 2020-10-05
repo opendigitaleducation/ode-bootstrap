@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 .fa,
@@ -422,6 +422,12 @@ readers do not read off random characters that represent icons */
 .fa-bacon:before {
   content: "\f7e5"; }
 
+.fa-bacteria:before {
+  content: "\e059"; }
+
+.fa-bacterium:before {
+  content: "\e05a"; }
+
 .fa-bahai:before {
   content: "\f666"; }
 
@@ -610,6 +616,9 @@ readers do not read off random characters that represent icons */
 
 .fa-box-open:before {
   content: "\f49e"; }
+
+.fa-box-tissue:before {
+  content: "\e05b"; }
 
 .fa-boxes:before {
   content: "\f468"; }
@@ -1184,6 +1193,9 @@ readers do not read off random characters that represent icons */
 .fa-d-and-d-beyond:before {
   content: "\f6ca"; }
 
+.fa-dailymotion:before {
+  content: "\e052"; }
+
 .fa-dashcube:before {
   content: "\f210"; }
 
@@ -1192,6 +1204,9 @@ readers do not read off random characters that represent icons */
 
 .fa-deaf:before {
   content: "\f2a4"; }
+
+.fa-deezer:before {
+  content: "\e077"; }
 
 .fa-delicious:before {
   content: "\f1a5"; }
@@ -1270,6 +1285,9 @@ readers do not read off random characters that represent icons */
 
 .fa-discourse:before {
   content: "\f393"; }
+
+.fa-disease:before {
+  content: "\f7fa"; }
 
 .fa-divide:before {
   content: "\f529"; }
@@ -1372,6 +1390,9 @@ readers do not read off random characters that represent icons */
 
 .fa-edge:before {
   content: "\f282"; }
+
+.fa-edge-legacy:before {
+  content: "\e078"; }
 
 .fa-edit:before {
   content: "\f044"; }
@@ -1502,6 +1523,9 @@ readers do not read off random characters that represent icons */
 .fa-fast-forward:before {
   content: "\f050"; }
 
+.fa-faucet:before {
+  content: "\e005"; }
+
 .fa-fax:before {
   content: "\f1ac"; }
 
@@ -1623,7 +1647,7 @@ readers do not read off random characters that represent icons */
   content: "\f269"; }
 
 .fa-firefox-browser:before {
-  content: "\f907"; }
+  content: "\e007"; }
 
 .fa-first-aid:before {
   content: "\f479"; }
@@ -1862,6 +1886,9 @@ readers do not read off random characters that represent icons */
 .fa-google-drive:before {
   content: "\f3aa"; }
 
+.fa-google-pay:before {
+  content: "\e079"; }
+
 .fa-google-play:before {
   content: "\f3ab"; }
 
@@ -1988,8 +2015,14 @@ readers do not read off random characters that represent icons */
 .fa-hand-holding-heart:before {
   content: "\f4be"; }
 
+.fa-hand-holding-medical:before {
+  content: "\e05c"; }
+
 .fa-hand-holding-usd:before {
   content: "\f4c0"; }
+
+.fa-hand-holding-water:before {
+  content: "\f4c1"; }
 
 .fa-hand-lizard:before {
   content: "\f258"; }
@@ -2024,6 +2057,9 @@ readers do not read off random characters that represent icons */
 .fa-hand-scissors:before {
   content: "\f257"; }
 
+.fa-hand-sparkles:before {
+  content: "\e05d"; }
+
 .fa-hand-spock:before {
   content: "\f259"; }
 
@@ -2033,8 +2069,17 @@ readers do not read off random characters that represent icons */
 .fa-hands-helping:before {
   content: "\f4c4"; }
 
+.fa-hands-wash:before {
+  content: "\e05e"; }
+
 .fa-handshake:before {
   content: "\f2b5"; }
+
+.fa-handshake-alt-slash:before {
+  content: "\e05f"; }
+
+.fa-handshake-slash:before {
+  content: "\e060"; }
 
 .fa-hanukiah:before {
   content: "\f6e6"; }
@@ -2056,6 +2101,18 @@ readers do not read off random characters that represent icons */
 
 .fa-hdd:before {
   content: "\f0a0"; }
+
+.fa-head-side-cough:before {
+  content: "\e061"; }
+
+.fa-head-side-cough-slash:before {
+  content: "\e062"; }
+
+.fa-head-side-mask:before {
+  content: "\e063"; }
+
+.fa-head-side-virus:before {
+  content: "\e064"; }
 
 .fa-heading:before {
   content: "\f1dc"; }
@@ -2129,6 +2186,9 @@ readers do not read off random characters that represent icons */
 .fa-hospital-symbol:before {
   content: "\f47e"; }
 
+.fa-hospital-user:before {
+  content: "\f80d"; }
+
 .fa-hot-tub:before {
   content: "\f593"; }
 
@@ -2155,6 +2215,9 @@ readers do not read off random characters that represent icons */
 
 .fa-house-damage:before {
   content: "\f6f1"; }
+
+.fa-house-user:before {
+  content: "\e065"; }
 
 .fa-houzz:before {
   content: "\f27c"; }
@@ -2190,7 +2253,7 @@ readers do not read off random characters that represent icons */
   content: "\f47f"; }
 
 .fa-ideal:before {
-  content: "\f913"; }
+  content: "\e013"; }
 
 .fa-igloo:before {
   content: "\f7ae"; }
@@ -2224,6 +2287,9 @@ readers do not read off random characters that represent icons */
 
 .fa-instagram:before {
   content: "\f16d"; }
+
+.fa-instagram-square:before {
+  content: "\e055"; }
 
 .fa-intercom:before {
   content: "\f7af"; }
@@ -2338,6 +2404,9 @@ readers do not read off random characters that represent icons */
 
 .fa-laptop-code:before {
   content: "\f5fc"; }
+
+.fa-laptop-house:before {
+  content: "\e066"; }
 
 .fa-laptop-medical:before {
   content: "\f812"; }
@@ -2455,6 +2524,12 @@ readers do not read off random characters that represent icons */
 
 .fa-luggage-cart:before {
   content: "\f59d"; }
+
+.fa-lungs:before {
+  content: "\f604"; }
+
+.fa-lungs-virus:before {
+  content: "\e067"; }
 
 .fa-lyft:before {
   content: "\f3c3"; }
@@ -2583,7 +2658,7 @@ readers do not read off random characters that represent icons */
   content: "\f753"; }
 
 .fa-microblog:before {
-  content: "\f91a"; }
+  content: "\e01a"; }
 
 .fa-microchip:before {
   content: "\f2db"; }
@@ -2623,6 +2698,9 @@ readers do not read off random characters that represent icons */
 
 .fa-mixcloud:before {
   content: "\f289"; }
+
+.fa-mixer:before {
+  content: "\e056"; }
 
 .fa-mizuni:before {
   content: "\f3cc"; }
@@ -2861,6 +2939,9 @@ readers do not read off random characters that represent icons */
 .fa-penny-arcade:before {
   content: "\f704"; }
 
+.fa-people-arrows:before {
+  content: "\e068"; }
+
 .fa-people-carry:before {
   content: "\f4ce"; }
 
@@ -2925,7 +3006,7 @@ readers do not read off random characters that represent icons */
   content: "\f1a7"; }
 
 .fa-pied-piper-square:before {
-  content: "\f91e"; }
+  content: "\e01e"; }
 
 .fa-piggy-bank:before {
   content: "\f4d3"; }
@@ -2956,6 +3037,9 @@ readers do not read off random characters that represent icons */
 
 .fa-plane-departure:before {
   content: "\f5b0"; }
+
+.fa-plane-slash:before {
+  content: "\e069"; }
 
 .fa-play:before {
   content: "\f04b"; }
@@ -3031,6 +3115,12 @@ readers do not read off random characters that represent icons */
 
 .fa-project-diagram:before {
   content: "\f542"; }
+
+.fa-pump-medical:before {
+  content: "\e06a"; }
+
+.fa-pump-soap:before {
+  content: "\e06b"; }
 
 .fa-pushed:before {
   content: "\f3e1"; }
@@ -3221,6 +3311,9 @@ readers do not read off random characters that represent icons */
 .fa-rupee-sign:before {
   content: "\f156"; }
 
+.fa-rust:before {
+  content: "\e07a"; }
+
 .fa-sad-cry:before {
   content: "\f5b3"; }
 
@@ -3317,6 +3410,9 @@ readers do not read off random characters that represent icons */
 .fa-shield-alt:before {
   content: "\f3ed"; }
 
+.fa-shield-virus:before {
+  content: "\e06c"; }
+
 .fa-ship:before {
   content: "\f21a"; }
 
@@ -3328,6 +3424,9 @@ readers do not read off random characters that represent icons */
 
 .fa-shoe-prints:before {
   content: "\f54b"; }
+
+.fa-shopify:before {
+  content: "\e057"; }
 
 .fa-shopping-bag:before {
   content: "\f290"; }
@@ -3370,6 +3469,9 @@ readers do not read off random characters that represent icons */
 
 .fa-simplybuilt:before {
   content: "\f215"; }
+
+.fa-sink:before {
+  content: "\e06d"; }
 
 .fa-sistrix:before {
   content: "\f3ee"; }
@@ -3463,6 +3565,9 @@ readers do not read off random characters that represent icons */
 
 .fa-snowplow:before {
   content: "\f7d2"; }
+
+.fa-soap:before {
+  content: "\e06e"; }
 
 .fa-socks:before {
   content: "\f696"; }
@@ -3629,11 +3734,20 @@ readers do not read off random characters that represent icons */
 .fa-stopwatch:before {
   content: "\f2f2"; }
 
+.fa-stopwatch-20:before {
+  content: "\e06f"; }
+
 .fa-store:before {
   content: "\f54e"; }
 
 .fa-store-alt:before {
   content: "\f54f"; }
+
+.fa-store-alt-slash:before {
+  content: "\e070"; }
+
+.fa-store-slash:before {
+  content: "\e071"; }
 
 .fa-strava:before {
   content: "\f428"; }
@@ -3845,6 +3959,9 @@ readers do not read off random characters that represent icons */
 .fa-ticket-alt:before {
   content: "\f3ff"; }
 
+.fa-tiktok:before {
+  content: "\e07b"; }
+
 .fa-times:before {
   content: "\f00d"; }
 
@@ -3871,6 +3988,9 @@ readers do not read off random characters that represent icons */
 
 .fa-toilet-paper:before {
   content: "\f71e"; }
+
+.fa-toilet-paper-slash:before {
+  content: "\e072"; }
 
 .fa-toolbox:before {
   content: "\f552"; }
@@ -3900,7 +4020,7 @@ readers do not read off random characters that represent icons */
   content: "\f637"; }
 
 .fa-trailer:before {
-  content: "\f941"; }
+  content: "\e041"; }
 
 .fa-train:before {
   content: "\f238"; }
@@ -4011,7 +4131,7 @@ readers do not read off random characters that represent icons */
   content: "\f404"; }
 
 .fa-unity:before {
-  content: "\f949"; }
+  content: "\e049"; }
 
 .fa-universal-access:before {
   content: "\f29a"; }
@@ -4027,6 +4147,9 @@ readers do not read off random characters that represent icons */
 
 .fa-unlock-alt:before {
   content: "\f13e"; }
+
+.fa-unsplash:before {
+  content: "\e07c"; }
 
 .fa-untappd:before {
   content: "\f405"; }
@@ -4118,6 +4241,9 @@ readers do not read off random characters that represent icons */
 .fa-users-cog:before {
   content: "\f509"; }
 
+.fa-users-slash:before {
+  content: "\e073"; }
+
 .fa-usps:before {
   content: "\f7e1"; }
 
@@ -4183,6 +4309,15 @@ readers do not read off random characters that represent icons */
 
 .fa-vine:before {
   content: "\f1ca"; }
+
+.fa-virus:before {
+  content: "\e074"; }
+
+.fa-virus-slash:before {
+  content: "\e075"; }
+
+.fa-viruses:before {
+  content: "\e076"; }
 
 .fa-vk:before {
   content: "\f189"; }
@@ -4398,14 +4533,14 @@ readers do not read off random characters that represent icons */
   width: auto; }
 
 /*!
- * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
-  font-display: auto;
+  font-display: block;
   src: url("fonts/fa/fa-solid-900.eot");
   src: url("fonts/fa/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("fonts/fa/fa-solid-900.woff2") format("woff2"), url("fonts/fa/fa-solid-900.woff") format("woff"), url("fonts/fa/fa-solid-900.ttf") format("truetype"), url("fonts/fa/fa-solid-900.svg#fontawesome") format("svg"); }
 
@@ -4415,27 +4550,37 @@ readers do not read off random characters that represent icons */
   font-weight: 900; }
 
 /*!
- * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
-  font-weight: normal;
-  font-display: auto;
+  font-weight: 400;
+  font-display: block;
   src: url("fonts/fa/fa-brands-400.eot");
   src: url("fonts/fa/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("fonts/fa/fa-brands-400.woff2") format("woff2"), url("fonts/fa/fa-brands-400.woff") format("woff"), url("fonts/fa/fa-brands-400.ttf") format("truetype"), url("fonts/fa/fa-brands-400.svg#fontawesome") format("svg"); }
 
 .fab {
-  font-family: 'Font Awesome 5 Brands'; }
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400; }
+
+/* Generic Icons */
+@font-face {
+  font-family: 'generic-icons';
+  src: url("fonts/generic-icons/generic-icons.woff");
+  font-weight: normal;
+  font-style: normal; }
 
 .bootstrap-theme {
   /*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */ }
+ * Bootstrap v4.5.2 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+  /* popup-notification : formerly called humane */
+  /* For retrocompatibility : DELETE ASAP */ }
   .bootstrap-theme :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -4547,10 +4692,10 @@ readers do not read off random characters that represent icons */
     .bootstrap-theme a:hover {
       color: #0056b3;
       text-decoration: underline; }
-  .bootstrap-theme a:not([href]) {
+  .bootstrap-theme a:not([href]):not([class]) {
     color: inherit;
     text-decoration: none; }
-    .bootstrap-theme a:not([href]):hover {
+    .bootstrap-theme a:not([href]):not([class]):hover {
       color: inherit;
       text-decoration: none; }
   .bootstrap-theme pre,
@@ -4562,7 +4707,8 @@ readers do not read off random characters that represent icons */
   .bootstrap-theme pre {
     margin-top: 0;
     margin-bottom: 1rem;
-    overflow: auto; }
+    overflow: auto;
+    -ms-overflow-style: scrollbar; }
   .bootstrap-theme figure {
     margin: 0 0 1rem; }
   .bootstrap-theme img {
@@ -4604,6 +4750,8 @@ readers do not read off random characters that represent icons */
   .bootstrap-theme button,
   .bootstrap-theme select {
     text-transform: none; }
+  .bootstrap-theme [role="button"] {
+    cursor: pointer; }
   .bootstrap-theme select {
     word-wrap: normal; }
   .bootstrap-theme button,
@@ -4626,11 +4774,6 @@ readers do not read off random characters that represent icons */
   .bootstrap-theme input[type="checkbox"] {
     box-sizing: border-box;
     padding: 0; }
-  .bootstrap-theme input[type="date"],
-  .bootstrap-theme input[type="time"],
-  .bootstrap-theme input[type="datetime-local"],
-  .bootstrap-theme input[type="month"] {
-    -webkit-appearance: listbox; }
   .bootstrap-theme textarea {
     overflow: auto;
     resize: vertical; }
@@ -4787,25 +4930,12 @@ readers do not read off random characters that represent icons */
   .bootstrap-theme .pre-scrollable {
     max-height: 340px;
     overflow-y: scroll; }
-  .bootstrap-theme .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto; }
-    @media (min-width: 576px) {
-      .bootstrap-theme .container {
-        max-width: 540px; } }
-    @media (min-width: 768px) {
-      .bootstrap-theme .container {
-        max-width: 720px; } }
-    @media (min-width: 992px) {
-      .bootstrap-theme .container {
-        max-width: 960px; } }
-    @media (min-width: 1200px) {
-      .bootstrap-theme .container {
-        max-width: 1140px; } }
-  .bootstrap-theme .container-fluid, .bootstrap-theme .container-sm, .bootstrap-theme .container-md, .bootstrap-theme .container-lg, .bootstrap-theme .container-xl {
+  .bootstrap-theme .container,
+  .bootstrap-theme .container-fluid,
+  .bootstrap-theme .container-sm,
+  .bootstrap-theme .container-md,
+  .bootstrap-theme .container-lg,
+  .bootstrap-theme .container-xl {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -5679,6 +5809,11 @@ readers do not read off random characters that represent icons */
     .bootstrap-theme .form-control:disabled, .bootstrap-theme .form-control[readonly] {
       background-color: #e9ecef;
       opacity: 1; }
+  .bootstrap-theme input[type="date"].form-control,
+  .bootstrap-theme input[type="time"].form-control,
+  .bootstrap-theme input[type="datetime-local"].form-control,
+  .bootstrap-theme input[type="month"].form-control {
+    appearance: none; }
   .bootstrap-theme select.form-control:focus::-ms-value {
     color: #495057;
     background-color: #fff; }
@@ -5778,6 +5913,7 @@ readers do not read off random characters that represent icons */
   .bootstrap-theme .valid-tooltip {
     position: absolute;
     top: 100%;
+    left: 0;
     z-index: 5;
     display: none;
     max-width: 100%;
@@ -5843,6 +5979,7 @@ readers do not read off random characters that represent icons */
   .bootstrap-theme .invalid-tooltip {
     position: absolute;
     top: 100%;
+    left: 0;
     z-index: 5;
     display: none;
     max-width: 100%;
@@ -5949,7 +6086,6 @@ readers do not read off random characters that represent icons */
     color: #212529;
     text-align: center;
     vertical-align: middle;
-    cursor: pointer;
     user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
@@ -5969,6 +6105,8 @@ readers do not read off random characters that represent icons */
       box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
     .bootstrap-theme .btn.disabled, .bootstrap-theme .btn:disabled {
       opacity: 0.65; }
+    .bootstrap-theme .btn:not(:disabled):not(.disabled) {
+      cursor: pointer; }
   .bootstrap-theme a.btn.disabled,
   .bootstrap-theme fieldset:disabled a.btn {
     pointer-events: none; }
@@ -6340,8 +6478,7 @@ readers do not read off random characters that represent icons */
       color: #0056b3;
       text-decoration: underline; }
     .bootstrap-theme .btn-link:focus, .bootstrap-theme .btn-link.focus {
-      text-decoration: underline;
-      box-shadow: none; }
+      text-decoration: underline; }
     .bootstrap-theme .btn-link:disabled, .bootstrap-theme .btn-link.disabled {
       color: #6c757d;
       pointer-events: none; }
@@ -6643,7 +6780,8 @@ readers do not read off random characters that represent icons */
     .bootstrap-theme .input-group > .custom-select,
     .bootstrap-theme .input-group > .custom-file {
       position: relative;
-      flex: 1 1 0%;
+      flex: 1 1 auto;
+      width: 1%;
       min-width: 0;
       margin-bottom: 0; }
       .bootstrap-theme .input-group > .form-control + .form-control,
@@ -6770,6 +6908,7 @@ readers do not read off random characters that represent icons */
     border-bottom-left-radius: 0; }
   .bootstrap-theme .custom-control {
     position: relative;
+    z-index: 1;
     display: block;
     min-height: 1.5rem;
     padding-left: 1.5rem; }
@@ -7115,9 +7254,11 @@ readers do not read off random characters that represent icons */
   .bootstrap-theme .nav-pills .show > .nav-link {
     color: #fff;
     background-color: #007bff; }
+  .bootstrap-theme .nav-fill > .nav-link,
   .bootstrap-theme .nav-fill .nav-item {
     flex: 1 1 auto;
     text-align: center; }
+  .bootstrap-theme .nav-justified > .nav-link,
   .bootstrap-theme .nav-justified .nav-item {
     flex-basis: 0;
     flex-grow: 1;
@@ -7323,7 +7464,7 @@ readers do not read off random characters that represent icons */
     color: rgba(0, 0, 0, 0.5);
     border-color: rgba(0, 0, 0, 0.1); }
   .bootstrap-theme .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
   .bootstrap-theme .navbar-light .navbar-text {
     color: rgba(0, 0, 0, 0.5); }
     .bootstrap-theme .navbar-light .navbar-text a {
@@ -7349,7 +7490,7 @@ readers do not read off random characters that represent icons */
     color: rgba(255, 255, 255, 0.5);
     border-color: rgba(255, 255, 255, 0.1); }
   .bootstrap-theme .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
   .bootstrap-theme .navbar-dark .navbar-text {
     color: rgba(255, 255, 255, 0.5); }
     .bootstrap-theme .navbar-dark .navbar-text a {
@@ -7369,12 +7510,20 @@ readers do not read off random characters that represent icons */
     .bootstrap-theme .card > hr {
       margin-right: 0;
       margin-left: 0; }
-    .bootstrap-theme .card > .list-group:first-child .list-group-item:first-child {
-      border-top-left-radius: 0.25rem;
-      border-top-right-radius: 0.25rem; }
-    .bootstrap-theme .card > .list-group:last-child .list-group-item:last-child {
-      border-bottom-right-radius: 0.25rem;
-      border-bottom-left-radius: 0.25rem; }
+    .bootstrap-theme .card > .list-group {
+      border-top: inherit;
+      border-bottom: inherit; }
+      .bootstrap-theme .card > .list-group:first-child {
+        border-top-width: 0;
+        border-top-left-radius: calc(0.25rem - 1px);
+        border-top-right-radius: calc(0.25rem - 1px); }
+      .bootstrap-theme .card > .list-group:last-child {
+        border-bottom-width: 0;
+        border-bottom-right-radius: calc(0.25rem - 1px);
+        border-bottom-left-radius: calc(0.25rem - 1px); }
+    .bootstrap-theme .card > .card-header + .list-group,
+    .bootstrap-theme .card > .list-group + .card-footer {
+      border-top: 0; }
   .bootstrap-theme .card-body {
     flex: 1 1 auto;
     min-height: 1px;
@@ -7397,8 +7546,6 @@ readers do not read off random characters that represent icons */
     border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
     .bootstrap-theme .card-header:first-child {
       border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
-    .bootstrap-theme .card-header + .list-group .list-group-item:first-child {
-      border-top: 0; }
   .bootstrap-theme .card-footer {
     padding: 0.75rem 1.25rem;
     background-color: rgba(0, 0, 0, 0.03);
@@ -7419,7 +7566,8 @@ readers do not read off random characters that represent icons */
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1.25rem; }
+    padding: 1.25rem;
+    border-radius: calc(0.25rem - 1px); }
   .bootstrap-theme .card-img,
   .bootstrap-theme .card-img-top,
   .bootstrap-theme .card-img-bottom {
@@ -7487,18 +7635,20 @@ readers do not read off random characters that represent icons */
       .bootstrap-theme .card-columns .card {
         display: inline-block;
         width: 100%; } }
-  .bootstrap-theme .accordion > .card {
-    overflow: hidden; }
-    .bootstrap-theme .accordion > .card:not(:last-of-type) {
-      border-bottom: 0;
-      border-bottom-right-radius: 0;
-      border-bottom-left-radius: 0; }
-    .bootstrap-theme .accordion > .card:not(:first-of-type) {
-      border-top-left-radius: 0;
-      border-top-right-radius: 0; }
-    .bootstrap-theme .accordion > .card > .card-header {
-      border-radius: 0;
-      margin-bottom: -1px; }
+  .bootstrap-theme .accordion {
+    overflow-anchor: none; }
+    .bootstrap-theme .accordion > .card {
+      overflow: hidden; }
+      .bootstrap-theme .accordion > .card:not(:last-of-type) {
+        border-bottom: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0; }
+      .bootstrap-theme .accordion > .card:not(:first-of-type) {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0; }
+      .bootstrap-theme .accordion > .card > .card-header {
+        border-radius: 0;
+        margin-bottom: -1px; }
   .bootstrap-theme .breadcrumb {
     display: flex;
     flex-wrap: wrap;
@@ -7507,19 +7657,21 @@ readers do not read off random characters that represent icons */
     list-style: none;
     background-color: #e9ecef;
     border-radius: 0.25rem; }
-  .bootstrap-theme .breadcrumb-item + .breadcrumb-item {
-    padding-left: 0.5rem; }
-    .bootstrap-theme .breadcrumb-item + .breadcrumb-item::before {
-      display: inline-block;
-      padding-right: 0.5rem;
-      color: #6c757d;
-      content: "/"; }
-  .bootstrap-theme .breadcrumb-item + .breadcrumb-item:hover::before {
-    text-decoration: underline; }
-  .bootstrap-theme .breadcrumb-item + .breadcrumb-item:hover::before {
-    text-decoration: none; }
-  .bootstrap-theme .breadcrumb-item.active {
-    color: #6c757d; }
+  .bootstrap-theme .breadcrumb-item {
+    display: flex; }
+    .bootstrap-theme .breadcrumb-item + .breadcrumb-item {
+      padding-left: 0.5rem; }
+      .bootstrap-theme .breadcrumb-item + .breadcrumb-item::before {
+        display: inline-block;
+        padding-right: 0.5rem;
+        color: #6c757d;
+        content: "/"; }
+    .bootstrap-theme .breadcrumb-item + .breadcrumb-item:hover::before {
+      text-decoration: underline; }
+    .bootstrap-theme .breadcrumb-item + .breadcrumb-item:hover::before {
+      text-decoration: none; }
+    .bootstrap-theme .breadcrumb-item.active {
+      color: #6c757d; }
   .bootstrap-theme .pagination {
     display: flex;
     padding-left: 0;
@@ -7783,6 +7935,7 @@ readers do not read off random characters that represent icons */
     display: flex;
     height: 1rem;
     overflow: hidden;
+    line-height: 0;
     font-size: 0.75rem;
     background-color: #e9ecef;
     border-radius: 0.25rem; }
@@ -7816,7 +7969,8 @@ readers do not read off random characters that represent icons */
     display: flex;
     flex-direction: column;
     padding-left: 0;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    border-radius: 0.25rem; }
   .bootstrap-theme .list-group-item-action {
     width: 100%;
     color: #495057;
@@ -7836,11 +7990,11 @@ readers do not read off random characters that represent icons */
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.125); }
     .bootstrap-theme .list-group-item:first-child {
-      border-top-left-radius: 0.25rem;
-      border-top-right-radius: 0.25rem; }
+      border-top-left-radius: inherit;
+      border-top-right-radius: inherit; }
     .bootstrap-theme .list-group-item:last-child {
-      border-bottom-right-radius: 0.25rem;
-      border-bottom-left-radius: 0.25rem; }
+      border-bottom-right-radius: inherit;
+      border-bottom-left-radius: inherit; }
     .bootstrap-theme .list-group-item.disabled, .bootstrap-theme .list-group-item:disabled {
       color: #6c757d;
       pointer-events: none;
@@ -7857,96 +8011,94 @@ readers do not read off random characters that represent icons */
         border-top-width: 1px; }
   .bootstrap-theme .list-group-horizontal {
     flex-direction: row; }
-    .bootstrap-theme .list-group-horizontal .list-group-item:first-child {
+    .bootstrap-theme .list-group-horizontal > .list-group-item:first-child {
       border-bottom-left-radius: 0.25rem;
       border-top-right-radius: 0; }
-    .bootstrap-theme .list-group-horizontal .list-group-item:last-child {
+    .bootstrap-theme .list-group-horizontal > .list-group-item:last-child {
       border-top-right-radius: 0.25rem;
       border-bottom-left-radius: 0; }
-    .bootstrap-theme .list-group-horizontal .list-group-item.active {
+    .bootstrap-theme .list-group-horizontal > .list-group-item.active {
       margin-top: 0; }
-    .bootstrap-theme .list-group-horizontal .list-group-item + .list-group-item {
+    .bootstrap-theme .list-group-horizontal > .list-group-item + .list-group-item {
       border-top-width: 1px;
       border-left-width: 0; }
-      .bootstrap-theme .list-group-horizontal .list-group-item + .list-group-item.active {
+      .bootstrap-theme .list-group-horizontal > .list-group-item + .list-group-item.active {
         margin-left: -1px;
         border-left-width: 1px; }
   @media (min-width: 576px) {
     .bootstrap-theme .list-group-horizontal-sm {
       flex-direction: row; }
-      .bootstrap-theme .list-group-horizontal-sm .list-group-item:first-child {
+      .bootstrap-theme .list-group-horizontal-sm > .list-group-item:first-child {
         border-bottom-left-radius: 0.25rem;
         border-top-right-radius: 0; }
-      .bootstrap-theme .list-group-horizontal-sm .list-group-item:last-child {
+      .bootstrap-theme .list-group-horizontal-sm > .list-group-item:last-child {
         border-top-right-radius: 0.25rem;
         border-bottom-left-radius: 0; }
-      .bootstrap-theme .list-group-horizontal-sm .list-group-item.active {
+      .bootstrap-theme .list-group-horizontal-sm > .list-group-item.active {
         margin-top: 0; }
-      .bootstrap-theme .list-group-horizontal-sm .list-group-item + .list-group-item {
+      .bootstrap-theme .list-group-horizontal-sm > .list-group-item + .list-group-item {
         border-top-width: 1px;
         border-left-width: 0; }
-        .bootstrap-theme .list-group-horizontal-sm .list-group-item + .list-group-item.active {
+        .bootstrap-theme .list-group-horizontal-sm > .list-group-item + .list-group-item.active {
           margin-left: -1px;
           border-left-width: 1px; } }
   @media (min-width: 768px) {
     .bootstrap-theme .list-group-horizontal-md {
       flex-direction: row; }
-      .bootstrap-theme .list-group-horizontal-md .list-group-item:first-child {
+      .bootstrap-theme .list-group-horizontal-md > .list-group-item:first-child {
         border-bottom-left-radius: 0.25rem;
         border-top-right-radius: 0; }
-      .bootstrap-theme .list-group-horizontal-md .list-group-item:last-child {
+      .bootstrap-theme .list-group-horizontal-md > .list-group-item:last-child {
         border-top-right-radius: 0.25rem;
         border-bottom-left-radius: 0; }
-      .bootstrap-theme .list-group-horizontal-md .list-group-item.active {
+      .bootstrap-theme .list-group-horizontal-md > .list-group-item.active {
         margin-top: 0; }
-      .bootstrap-theme .list-group-horizontal-md .list-group-item + .list-group-item {
+      .bootstrap-theme .list-group-horizontal-md > .list-group-item + .list-group-item {
         border-top-width: 1px;
         border-left-width: 0; }
-        .bootstrap-theme .list-group-horizontal-md .list-group-item + .list-group-item.active {
+        .bootstrap-theme .list-group-horizontal-md > .list-group-item + .list-group-item.active {
           margin-left: -1px;
           border-left-width: 1px; } }
   @media (min-width: 992px) {
     .bootstrap-theme .list-group-horizontal-lg {
       flex-direction: row; }
-      .bootstrap-theme .list-group-horizontal-lg .list-group-item:first-child {
+      .bootstrap-theme .list-group-horizontal-lg > .list-group-item:first-child {
         border-bottom-left-radius: 0.25rem;
         border-top-right-radius: 0; }
-      .bootstrap-theme .list-group-horizontal-lg .list-group-item:last-child {
+      .bootstrap-theme .list-group-horizontal-lg > .list-group-item:last-child {
         border-top-right-radius: 0.25rem;
         border-bottom-left-radius: 0; }
-      .bootstrap-theme .list-group-horizontal-lg .list-group-item.active {
+      .bootstrap-theme .list-group-horizontal-lg > .list-group-item.active {
         margin-top: 0; }
-      .bootstrap-theme .list-group-horizontal-lg .list-group-item + .list-group-item {
+      .bootstrap-theme .list-group-horizontal-lg > .list-group-item + .list-group-item {
         border-top-width: 1px;
         border-left-width: 0; }
-        .bootstrap-theme .list-group-horizontal-lg .list-group-item + .list-group-item.active {
+        .bootstrap-theme .list-group-horizontal-lg > .list-group-item + .list-group-item.active {
           margin-left: -1px;
           border-left-width: 1px; } }
   @media (min-width: 1200px) {
     .bootstrap-theme .list-group-horizontal-xl {
       flex-direction: row; }
-      .bootstrap-theme .list-group-horizontal-xl .list-group-item:first-child {
+      .bootstrap-theme .list-group-horizontal-xl > .list-group-item:first-child {
         border-bottom-left-radius: 0.25rem;
         border-top-right-radius: 0; }
-      .bootstrap-theme .list-group-horizontal-xl .list-group-item:last-child {
+      .bootstrap-theme .list-group-horizontal-xl > .list-group-item:last-child {
         border-top-right-radius: 0.25rem;
         border-bottom-left-radius: 0; }
-      .bootstrap-theme .list-group-horizontal-xl .list-group-item.active {
+      .bootstrap-theme .list-group-horizontal-xl > .list-group-item.active {
         margin-top: 0; }
-      .bootstrap-theme .list-group-horizontal-xl .list-group-item + .list-group-item {
+      .bootstrap-theme .list-group-horizontal-xl > .list-group-item + .list-group-item {
         border-top-width: 1px;
         border-left-width: 0; }
-        .bootstrap-theme .list-group-horizontal-xl .list-group-item + .list-group-item.active {
+        .bootstrap-theme .list-group-horizontal-xl > .list-group-item + .list-group-item.active {
           margin-left: -1px;
           border-left-width: 1px; } }
-  .bootstrap-theme .list-group-flush .list-group-item {
-    border-right-width: 0;
-    border-left-width: 0;
+  .bootstrap-theme .list-group-flush {
     border-radius: 0; }
-    .bootstrap-theme .list-group-flush .list-group-item:first-child {
-      border-top-width: 0; }
-  .bootstrap-theme .list-group-flush:last-child .list-group-item:last-child {
-    border-bottom-width: 0; }
+    .bootstrap-theme .list-group-flush > .list-group-item {
+      border-width: 0 0 1px; }
+      .bootstrap-theme .list-group-flush > .list-group-item:last-child {
+        border-bottom-width: 0; }
   .bootstrap-theme .list-group-item-primary {
     color: #004085;
     background-color: #b8daff; }
@@ -8043,19 +8195,17 @@ readers do not read off random characters that represent icons */
   .bootstrap-theme button.close {
     padding: 0;
     background-color: transparent;
-    border: 0;
-    appearance: none; }
+    border: 0; }
   .bootstrap-theme a.close.disabled {
     pointer-events: none; }
   .bootstrap-theme .toast {
+    flex-basis: 350px;
     max-width: 350px;
-    overflow: hidden;
     font-size: 0.875rem;
     background-color: rgba(255, 255, 255, 0.85);
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
     opacity: 0;
     border-radius: 0.25rem; }
     .bootstrap-theme .toast:not(:last-child) {
@@ -8074,7 +8224,9 @@ readers do not read off random characters that represent icons */
     color: #6c757d;
     background-color: rgba(255, 255, 255, 0.85);
     background-clip: padding-box;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px); }
   .bootstrap-theme .toast-body {
     padding: 0.75rem; }
   .bootstrap-theme .modal-open {
@@ -8125,6 +8277,7 @@ readers do not read off random characters that represent icons */
     .bootstrap-theme .modal-dialog-centered::before {
       display: block;
       height: calc(100vh - 1rem);
+      height: min-content;
       content: ""; }
     .bootstrap-theme .modal-dialog-centered.modal-dialog-scrollable {
       flex-direction: column;
@@ -8203,7 +8356,8 @@ readers do not read off random characters that represent icons */
     .bootstrap-theme .modal-dialog-centered {
       min-height: calc(100% - 3.5rem); }
       .bootstrap-theme .modal-dialog-centered::before {
-        height: calc(100vh - 3.5rem); }
+        height: calc(100vh - 3.5rem);
+        height: min-content; }
     .bootstrap-theme .modal-sm {
       max-width: 300px; } }
   @media (min-width: 992px) {
@@ -8559,7 +8713,8 @@ readers do not read off random characters that represent icons */
   0% {
     transform: scale(0); }
   50% {
-    opacity: 1; } }
+    opacity: 1;
+    transform: none; } }
   .bootstrap-theme .spinner-grow {
     display: inline-block;
     width: 2rem;
@@ -9230,6 +9385,12 @@ readers do not read off random characters that represent icons */
       float: right !important; }
     .bootstrap-theme .float-xl-none {
       float: none !important; } }
+  .bootstrap-theme .user-select-all {
+    user-select: all !important; }
+  .bootstrap-theme .user-select-auto {
+    user-select: auto !important; }
+  .bootstrap-theme .user-select-none {
+    user-select: none !important; }
   .bootstrap-theme .overflow-auto {
     overflow: auto !important; }
   .bootstrap-theme .overflow-hidden {
@@ -9318,16 +9479,6 @@ readers do not read off random characters that represent icons */
     width: 100vw !important; }
   .bootstrap-theme .vh-100 {
     height: 100vh !important; }
-  .bootstrap-theme .stretched-link::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    pointer-events: auto;
-    content: "";
-    background-color: rgba(0, 0, 0, 0); }
   .bootstrap-theme .m-0 {
     margin: 0 !important; }
   .bootstrap-theme .mt-0,
@@ -10592,6 +10743,16 @@ readers do not read off random characters that represent icons */
     .bootstrap-theme .ml-xl-auto,
     .bootstrap-theme .mx-xl-auto {
       margin-left: auto !important; } }
+  .bootstrap-theme .stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0, 0, 0, 0); }
   .bootstrap-theme .text-monospace {
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important; }
   .bootstrap-theme .text-justify {
@@ -10773,5 +10934,93 @@ readers do not read off random characters that represent icons */
     .bootstrap-theme .table .thead-dark th {
       color: inherit;
       border-color: #dee2e6; } }
+  .bootstrap-theme .popup-notification {
+    position: fixed;
+    z-index: 100000;
+    line-height: 40px;
+    font-size: 25px;
+    top: 25%;
+    left: 25%;
+    opacity: 0;
+    width: 50%;
+    min-height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    -moz-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); }
+    .bootstrap-theme .popup-notification p,
+    .bootstrap-theme .popup-notification ul {
+      margin: 0;
+      padding: 0; }
+    .bootstrap-theme .popup-notification ul {
+      list-style: none; }
+    .bootstrap-theme .popup-notification--info {
+      background-color: #17a2b8; }
+    .bootstrap-theme .popup-notification--success {
+      background-color: #28a745; }
+    .bootstrap-theme .popup-notification--error {
+      background-color: #dc3545; }
+  .bootstrap-theme .humane,
+  .bootstrap-theme .humane-original {
+    position: fixed;
+    -moz-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    z-index: 100000;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); }
+  .bootstrap-theme .humane,
+  .bootstrap-theme .humane-original {
+    line-height: 40px;
+    font-size: 25px;
+    top: 25%;
+    left: 25%;
+    opacity: 0;
+    width: 50%;
+    min-height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px; }
+  .bootstrap-theme .humane p,
+  .bootstrap-theme .humane-original p,
+  .bootstrap-theme .humane ul,
+  .bootstrap-theme .humane-original ul {
+    margin: 0;
+    padding: 0; }
+  .bootstrap-theme .humane ul,
+  .bootstrap-theme .humane-original ul {
+    list-style: none; }
+  .bootstrap-theme .humane.humane-original-info,
+  .bootstrap-theme .humane-original.humane-original-info {
+    background-color: #00D; }
+  .bootstrap-theme .humane.humane-original-success,
+  .bootstrap-theme .humane-original.humane-original-success {
+    background-color: #030; }
+  .bootstrap-theme .humane.humane-original-error,
+  .bootstrap-theme .humane-original.humane-original-error {
+    background-color: #D00; }
+  .bootstrap-theme .humane.humane-animate,
+  .bootstrap-theme .humane-original.humane-original-animate {
+    opacity: 0.8; }
+  .bootstrap-theme .humane.humane-animate:hover,
+  .bootstrap-theme .humane-original.humane-original-animate:hover {
+    opacity: 0.6; }
+  .bootstrap-theme .humane.humane-js-animate,
+  .bootstrap-theme .humane-original.humane-original-js-animate {
+    opacity: 0.8; }
+  .bootstrap-theme .humane.humane-js-animate:hover,
+  .bootstrap-theme .humane-original.humane-original-js-animate:hover {
+    opacity: 0.6;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60); }
 
 /*# sourceMappingURL=index.css.map */

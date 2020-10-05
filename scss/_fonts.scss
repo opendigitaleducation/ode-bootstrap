@@ -3,3 +3,11 @@ $fa-font-path:        getUrlStr("fonts/fa") !default;
 @import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 @import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+
+/* Generic Icons */
+@font-face {
+    font-family: 'generic-icons';
+    src: url('fonts/generic-icons/generic-icons.woff');
+    font-weight: normal;
+    font-style: normal;
+}

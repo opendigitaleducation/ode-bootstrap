@@ -3,14 +3,15 @@
   "version": "${npmVersion}",
   "description": "Open Digital Education CSS framework based on bootstrap",
   "scripts": {
+    "copy-fonts": "cpr node_modules/entcore-generic-icons/fonts/ assets/fonts/generic-icons/ -o && cpr node_modules/@fortawesome/fontawesome-free/webfonts assets/fonts/fa/ -o",
     "sass:watch": "node-sass --source-map true -w scss/index.scss docs/index.css",
     "sass:build:debug": "node-sass --source-map true scss/index.scss docs/index.css",
     "sass:build:release": "node-sass --output-style compressed scss/index.scss dist/index.css",
-    "dev:prepare": "npm run sass:build:debug && cpr assets/ docs/ -o",
+    "dev:prepare": "npm run sass:build:debug && npm run copy-fonts && cpr assets/ docs/ -o",
     "dev:watch": "npm run dev:prepare && concurrently  \" npm run sass:watch \" \" npm run dev:serve  \" ",
     "dev:serve": "live-server --open=docs/ --ignore=**/node_modules/**,**/dist/**,**/package.json,**/.git/**",
     "release:clean": "rimraf dist",
-    "release:prepare": "npm run release:clean && cpr assets/ dist/",
+    "release:prepare": "npm run release:clean && npm run copy-fonts && cpr assets/ dist/",
     "release:build": "npm run release:prepare && npm run sass:build:release"
   },
   "repository": {
@@ -38,6 +39,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "entcore-generic-icons": "opendigitaleducation/generic-icons"
   }
 }
