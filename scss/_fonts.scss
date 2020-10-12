@@ -7,7 +7,7 @@ $fa-font-path:        getUrlStr("fonts/fa") !default;
 /* Generic Icons */
 @font-face {
     font-family: 'generic-icons';
-    src: url('fonts/generic-icons/generic-icons.woff');
+    src: getUrl('fonts/generic-icons/generic-icons.woff');
     font-weight: normal;
     font-style: normal;
 }
