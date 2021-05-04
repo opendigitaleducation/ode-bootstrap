@@ -1,0 +1,115 @@
+.list {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem!important;
+    font-weight: bold;
+    color: $gray-600;
+    padding: 5px 15px;
+    .list__item--preview {
+      width: 40px;
+    }
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid $gray-200;
+    margin: 5px 0;
+    padding: 5px 15px;
+    border-radius: $border-radius-lg;
+    color: $gray-600;
+    font-size: 0.875rem;
+    cursor: pointer;
+    @extend .transition-hover;
+    &:hover {
+      border-color: $secondary;
+      @extend .transition-hover-fast;
+    }
+    &:active,
+    &.active {
+      border-color: $secondary;
+      background-color: rgba($secondary, 0.1);
+    }
+    .list__item--preview {
+      width: 40px;
+      vertical-align: middle;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .list__title {
+      font-size: 1rem;
+      font-weight: bold;
+      color: $gray-700;
+      margin: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .list__image {
+      width: 30px;
+      height: 30px;
+      border-radius: $border-radius;
+      margin-right: 5px;
+    }
+    .list__status {
+      text-align: right;
+      font-size: 1rem;
+      padding-right: 10px;
+      > * {
+        margin: 0 5px;
+      }
+    }
+    .list__modifiedBy {
+      font-size: 0.75rem;
+    }
+  }
+  &__title {
+    width: calc(100% - 450px);
+  }
+  &__status {
+    width: 75px;
+  }
+  &__owner {
+    width: 200px;
+  }
+  &__modification {
+    width: 175px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .explorer__view.list {
+    padding: 5px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+  }
+  .list {
+    &__header {
+      display: none;
+    }
+   &__item {
+     flex-wrap: wrap;
+     padding: 10px;
+     margin: 10px 0;
+     border-color: $gray-300;
+     .list__title {
+       width: calc(100% - 40px); // 100% - .list__item--preview
+     }
+     .list__status {
+       display: none;
+     }
+     .list__owner {
+       width: 55%;
+     }
+     .list__modification {
+       width: 45%;
+       text-align: right;
+     }
+     .list__modifiedBy {
+       display: none;
+     }
+   }
+  }
+}

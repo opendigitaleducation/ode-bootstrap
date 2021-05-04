@@ -1,0 +1,9 @@
+.filters {
+  .btn {
+    color: $gray-600;
+    box-shadow: none;
+    &.inactive {
+      color: $gray-400;
+    }
+  }
+}

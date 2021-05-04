@@ -1,0 +1,53 @@
+.toaster {
+  background-color: $primary;
+  padding: 5px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 25px rgba($black, 0.25);
+  > a {
+    display: inline-block;
+    color: $white;
+    margin: 5px;
+    padding: 7px 10px;
+    border-radius: $border-radius;
+    &:hover {
+      background-color: rgba($black, 0.1);
+      text-decoration: none;
+    }
+  }
+  &__open {
+    @extend .btn;
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    padding: 0;
+    border: 1px solid $gray-300;
+    background-color: $gray-100;
+    &::before {
+      opacity: 0;
+      font-family: "Font Awesome 5 Free";
+      content: "\f00c";
+    }
+    &:hover {
+      background-color: $secondary-lightest;
+      border-color: $secondary-light;
+      &::before {
+        color: $secondary-darkest;
+        opacity: 0.5;
+      }
+    }
+    &.checked {
+      @extend .btn-secondary;
+      &::before {
+        opacity: 1;
+      }
+    }
+  }
+}

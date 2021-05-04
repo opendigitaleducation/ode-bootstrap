@@ -1,0 +1,21 @@
+// A revoir, à compléter, à optimiser
+.transition-hover-fast {
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+.transition-hover {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.transition-hover-slow {
+    transition-property: all;
+    transition-duration: 0.75s;
+    transition-timing-function: ease;
+}
+.transition-hover-very-slow {
+    transition-property: all;
+    transition-duration: 0.75s;
+    transition-timing-function: ease;
+}

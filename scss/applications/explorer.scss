@@ -1,0 +1,17 @@
+// Ici la liste de tous les components dont la page "explorer" à besoin pour fonctionner.
+
+#{$root-selector}{
+  @import "../index"; // TODO : Dans index il ne faudra appeler que les tokens.
+
+  @import "../components/avatar";
+  @import "../components/buttons";
+  @import "../components/dominos";
+  @import "../components/dropdowns";
+  @import "../components/explorer";
+  @import "../components/filters";
+  @import "../components/forms";
+  @import "../components/lists";
+  @import "../components/navbar"; // On laisse chaque thème gérer la sienne ? les deux sont trop différents ! 
+  @import "../components/sidebar";
+  @import "../components/toaster";
+}

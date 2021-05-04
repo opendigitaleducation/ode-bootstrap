@@ -1,0 +1,243 @@
+/* DOCUMENTATION
+<section class="dominos dominos--square">
+    <article class="domino">
+        <div class="domino__overlay">
+        	<img src="imageDomino" />
+            <div class="domino__overlay--left">
+                <i>Icone public</i>
+                <i>Icone partage</i>
+            </div>
+            <div class="domino__overlay--right">
+                <i>Icone nombre de vues</i>
+                <i>Icone commentaires</i>
+            </div>
+        </div>
+        <div class="domino__infos">
+            <h2 class="domino__title">Titre de la ressource</h2>
+            <p class="domino__info">Modifié par <a>Isabelle Polonio</a></p>
+            <p class="domino__info">Il y a 23 heures</p>
+        </div>
+	</article>
+</section>
+END DOCUMENTATION */
+
+/* VARIABLES */
+$domino-width: 240px;
+$overlay-width: $domino-width / 1.5;
+
+/* COMPONENT */
+.dominos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.domino {
+  background-color: $white;
+  border-radius: $border-radius-lg;
+  border: 1px solid $gray-300;
+  margin: 10px;
+  cursor: pointer;
+  position: relative;
+  @extend .transition-hover;
+  &__image {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    // height: $overlay-width;
+    height: 120px;
+    position: relative;
+    border-radius: $border-radius-lg $border-radius-lg 0 0;
+    img {
+      border-radius: $border-radius-lg $border-radius-lg 0 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__overlay {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    border-radius: $border-radius-lg $border-radius-lg 0 0;
+    color: $white;
+    padding: 5px 10px;
+    position: absolute;
+    span {
+      font-weight: bold;
+      font-size: 0.75rem;
+    }
+    i {
+      font-weight: normal;
+      margin: 3px;
+    }
+    &--left,
+    &--right {
+      opacity: 0;
+    }
+  }
+  &.folder .domino__image,
+  &.item .domino__image {
+    background-color: rgba($secondary, 0.1);
+    justify-content: center;
+    align-items: center;
+    > i {
+      font-size: 4rem;
+    }
+  }
+  &.item.thumbnail .domino__image {
+    // background-image: url("https://loremflickr.com/240/160/");
+    // background-size: cover;
+    // background-position: center;
+    align-items: flex-start;
+    &__overlay {
+      background-color: rgba($black, 0.3);
+    }
+  }
+  &__infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(#{$domino-width} - #{$overlay-width});
+    padding: 10px;
+    .domino__title {
+      color: $gray-700;
+      font-size: 0.875rem; //14px
+      font-weight: bold;
+      margin-bottom: 5px;
+      @extend .text-truncate;
+    }
+    .domino__info {
+      color: $gray-600;
+      font-size: .75rem; //12px
+      @extend .text-truncate;
+      a {
+        font-weight: bold;
+        color: $secondary;
+        cursor: pointer;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+  &:hover {
+    border-color: $secondary;
+    @extend .transition-hover-slow;
+    .domino__overlay {
+      background-color: rgba(0,0,0,0.5);
+      &--left,
+      &--right {
+        opacity: 1;
+        @extend .transition-hover;
+      }
+    }
+    .toaster2 {
+      display: block;
+    }
+  }
+  &:active,
+  &.active {
+    background-color: rgba($secondary, 0.1);
+    border-color: $secondary;
+  }
+  &.active {
+    .domino__overlay {
+      background-color: rgba(0,0,0,0.5);
+      &--left,
+      &--right {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.domino.blog {
+  .domino__image {
+    background-color: rgba($indigo, 0.1);
+    color: $indigo;
+  }
+}
+.domino.exercizer {
+  .domino__image {
+    background-color: rgba($purple, 0.1);
+    color: $purple;
+  }
+}
+.domino.timelinegenerator {
+  .domino__image {
+    background-color: rgba($yellow, 0.1);
+    color: $yellow;
+  }
+}
+.domino.rack {
+  .domino__image {
+    background-color: rgba($red, 0.1);
+    color: $red;
+  }
+}
+.domino.homeworks {
+  .domino__image {
+    background-color: rgba($teal, 0.1);
+    color: $teal;
+  }
+}
+
+.dominos--square .domino {
+  width: calc(16.667% - 20px);
+  max-width: $domino-width;
+  // height: $domino-width;
+}
+// .dominos--vertical .domino {
+//   width: $domino-width;
+//   height: calc(#{$domino-width} + (#{$domino-width} / 2));
+// }
+// .dominos--horizontal .domino {
+//   width: $domino-width;
+//   height: calc(#{$domino-width} / 2);
+// }
+
+@media (max-width: 1590px) {
+  .dominos--square .domino {
+    width: calc(20% - 20px);
+  }
+}
+@media (max-width: 1360px) {
+  .dominos--square .domino {
+    width: calc(25% - 20px);
+  }
+}
+@media (max-width: 1100px) {
+  .dominos--square .domino {
+    width: calc(33% - 20px);
+  }
+}
+@media (max-width: 992px) {
+  .dominos--square .domino {
+    margin: 5px;
+    width: calc(25% - 10px);
+    &:hover,
+    &.active {
+      .domino__overlay {
+        background-color: transparent;
+        &--left,
+        &--right {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 820px) {
+  .dominos--square .domino {
+    width: calc(33% - 10px);
+  }
+}
+@media (max-width: 560px) {
+  .dominos--square .domino {
+    width: calc(50% - 10px);
+  }
+}
