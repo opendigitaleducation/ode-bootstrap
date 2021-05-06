@@ -2,12 +2,37 @@
 @import "mixins";
 @import "fonts";
 
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import "variables";
+
 #{$root-selector} {
-    @import "node_modules/bootstrap/scss/functions";
-    @import "node_modules/bootstrap/scss/variables";
-    @import "node_modules/bootstrap/scss/mixins";
     @import "node_modules/bootstrap/scss/bootstrap";
+
     @import "emptyscreen";
     @import "notifications";
     @import "image-contextual-menu";
+
+    @import "tokens/display";
+    // @import "tokens/fonts";
+    @import "tokens/icons";
+    @import "tokens/mixins";
+    @import "tokens/transitions";
+
+    // A déplacer dans explorer.scss quand on aura résolu le souci de build
+    @import "components/avatar";
+    @import "components/breadcrumbs";
+    @import "components/buttons";
+    @import "components/dominos";
+    @import "components/dropdowns";
+    @import "components/explorer";
+    @import "components/filters";
+    @import "components/forms";
+    @import "components/lists";
+    @import "components/navbar";
+    @import "components/search";
+    @import "components/sidebar";
+    @import "components/toaster";
 }
