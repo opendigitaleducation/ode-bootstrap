@@ -1,5 +1,5 @@
 @import "variables-ode";
-@import "mixins";
+@import "tokens/mixins";
 @import "fonts";
 
 @import "node_modules/bootstrap/scss/functions";
@@ -18,8 +18,9 @@
     @import "tokens/display";
     // @import "tokens/fonts";
     @import "tokens/icons";
-    @import "tokens/mixins";
+    
     @import "tokens/transitions";
+    @import "tokens/typography";
 
     // A déplacer dans explorer.scss quand on aura résolu le souci de build
     @import "components/avatar";
@@ -35,4 +36,6 @@
     @import "components/search";
     @import "components/sidebar";
     @import "components/toaster";
+    @import "components/widget";
+    @import "components/feed";
 }

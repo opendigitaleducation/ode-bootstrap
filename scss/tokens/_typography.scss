@@ -1,0 +1,18 @@
+.link,
+.link a {
+    @include color-to($primary);
+    color: $deepBlue;
+    font-weight: 600;
+}
+.link-discret,
+.link-discret a {
+    @include color-to($deepBlue);
+    color: currentColor;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}

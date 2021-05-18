@@ -1201,3 +1201,196 @@ $positions: static, relative, absolute, fixed, sticky ;
 
 $print-page-size:                   a3 ;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") ;
+
+
+
+$applications: (
+    "competences" : (
+        "color" : $red,
+        "glyph": '\e927'
+    ),
+    "cahier-textes" : (
+        "color" : $red,
+        "glyph": '\e86f'
+    ),
+    "poll" : (
+        "color" : $red,
+        "glyph": '\e832'
+    ),
+    "rack" : (
+        "color" : $red,
+        "glyph": '\e80d'
+    ),
+    "rbs" : (
+        "color" : $red,
+        "glyph": '\e80e'
+    ),
+    "searchengine" : (
+        "color" : $red,
+        "glyph": '\e8d0'
+    ),
+    "sharebigfiles" : (
+        "color" : $red,
+        "glyph": '\e8cb'
+    ),
+    "schoolbook" : (
+        "color" : $red,
+        "glyph": '\e91e'
+    ),
+    "archive" : (
+        "color" : $red,
+        "glyph": '\e81d'
+    ),
+    "admin" : (
+        "color" : $red,
+        "glyph": '\e81a'
+    ),
+    "cahier-de-texte" : (
+        "color" : $red,
+        "glyph": '\e910'
+    ),
+    "wiki" : (
+        "color" : $purple,
+        "glyph": '\e813'
+    ),
+    "cns" : (
+        "color" : $red,
+        "glyph": '\e88a'
+    ),
+    "conversation" : (
+        "color" : $red,
+        "glyph": '\e804'
+    ),
+    "paths" : (
+        "color" : $red,
+        "glyph": '\e94d'
+    ),
+    "notebook" : (
+        "color" : $teal,
+        "glyph": '\e8d4'
+    ),
+    "scrap-book" : (
+        "color" : $teal,
+        "glyph": '\e8d4'
+    ),
+    "blog" : (
+        "color" : $indigo,
+        "glyph": '\e809'
+    ),
+    "account" : (
+        "color" : $red,
+        "glyph": '\e905'
+    ),
+    "support" : (
+        "color" : $red,
+        "glyph": '\e835'
+    ),
+    "workspace" : (
+        "color" : $red,
+        "glyph": '\e81b'
+    ),
+    "admin-portal" : (
+        "color" : $red,
+        "glyph": '\e908'
+    ),
+    "stats" : (
+        "color" : $red,
+        "glyph": '\e909'
+    ),
+    "userbook" : (
+        "color" : $red,
+        "glyph": '\e811'
+    ),
+    "mindmap" : (
+        "color" : $cyan,
+        "glyph": '\e859'
+    ),
+    "timelinegenerator" : (
+        "color" : $yellow,
+        "glyph": '\e819'
+    ),
+    "actualites" : (
+        "color" : $indigo,
+        "glyph": '\e85b'
+    ),
+    "pad" : (
+        "color" : $red,
+        "glyph": '\e829'
+    ),
+    "settings-class" : (
+        "color" : $red,
+        "glyph": '\e942'
+    ),
+    "library" : (
+        "color" : $red,
+        "glyph": '\e94c'
+    ),
+    "visioconf" : (
+        "color" : $pink,
+        "glyph": '\e957'
+    ),
+    "Web-conference" : (
+        "color" : $red,
+        "glyph": '\e957'
+    ),
+    "notes" : (
+        "color" : $red,
+        "glyph": '\e832'
+    ),
+    "attendance" : (
+        "color" : $red,
+        "glyph": '\e80b'
+    ),
+    "exercizer" : (
+        "color" : $purple,
+        "glyph": '\e833'
+    ),
+    "calendar" : (
+        "color" : $red,
+        "glyph": '\e834'
+    ),
+    "collaborative-wall" : (
+        "color" : $red,
+        "glyph": '\e800'
+    ),
+    "statistics" : (
+        "color" : $red,
+        "glyph": '\e810'
+    ),
+    "polls" : (
+        "color" : $red,
+        "glyph": '\e832'
+    ),
+    "community" : (
+        "color" : $red,
+        "glyph": '\e814'
+    ),
+    "forum" : (
+        "color" : $red,
+        "glyph": '\e81e'
+    ),
+    "pages" : (
+        "color" : $red,
+        "glyph": '\e927'
+    ),
+    "website" : (
+        "color" : $red,
+        "glyph": '\e94a'
+    ),
+    "parametrage" : (
+        "color" : $red,
+        "glyph": '\e92f'
+    ),
+    "video" : (
+        "color" : $red,
+        "glyph": '\e872'
+    ),
+    "kne" : (
+        "color" : $red,
+        "glyph": '\e81f'
+    ),
+    "sacoche" : (
+        "color" : $red,
+        "glyph": '\e899'
+    ),
+);

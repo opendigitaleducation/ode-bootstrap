@@ -25,3 +25,12 @@
     font-weight: bold;
     font-style: italic;
 }
+
+.link {
+    color: $deepBlue;
+    font-weight: 500;
+    a {
+        color: $deepBlue;
+        font-weight: 500;
+    }
+}

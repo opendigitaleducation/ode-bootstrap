@@ -1,0 +1,126 @@
+@function getUrl($path) {
+    @return url(#{$base-url}#{$path});
+}
+
+@function getUrlStr($path) {
+    @return #{$base-url}#{$path};
+}
+
+@mixin fonticon {
+    font-family: "generic-icons";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: none;
+    font-weight: normal !important;
+}
+
+@mixin fontawesome {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-feature-settings: "liga";
+}
+
+@mixin insert-icon($icon: "star", $size: 28px, $top: 0, $color: inherit) {
+    position: relative;
+    &:before {
+        @include fontawesome();
+        position: absolute;
+        content: $icon !important;
+        top: $top;
+        left: 0;
+        display: block;
+        font-size: $size;
+        height: $size;
+        line-height: 1em;
+        color: $color;
+        font-feature-settings: "liga";
+        text-transform: initial;
+    }
+}
+
+@mixin prepend-icon($icon: "star", $size: 28px, $left: 0px, $color: inherit) {
+    @include insert-icon($icon, $size, 50%, $color);
+    &:before {
+        position: absolute;
+        top: 50%;
+        left: $left;
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+}
+@mixin append-icon($icon: "star", $size: 28px, $right: 0px, $color: inherit) {
+    @include insert-icon($icon, $size, 50%, $color);
+    padding-right: $size*1.2;
+    &:before {
+        position: absolute;
+        top: 50%;
+        left: unset;
+        right: $right;
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+}
+
+@mixin base-layer() {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+@mixin add-before-layer() {
+    position: relative;
+    &:before {
+        @include base-layer();
+    }
+}
+
+@mixin add-after-layer() {
+    position: relative;
+    &:after {
+        @include base-layer();
+    }
+}
+
+@mixin add-overlay($opacity: 0.5) {
+    position: relative;
+    &:before {
+        @include base-layer();
+        background: rgba(0, 0, 0, $opacity);
+    }
+}
+
+@mixin have-child-in-middle() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin rect($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+@mixin square($width) {
+    @include rect($width, $width)
+}
+
+@mixin circle($width) {
+    @include square($width);
+    border-radius: 50%;
+}
+
+@mixin link-decoration($state: "underline") {
+    &:hover {
+        text-decoration: $state;
+    }
+}

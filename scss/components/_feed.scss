@@ -1,0 +1,58 @@
+.feed {
+    font-size: 14px;
+
+    .filter-button {
+        @include append-icon('\f107', 1em, 0);
+        display: inline-block;
+        margin-bottom: 0.5em ;
+    }
+
+    &-list {
+    }
+
+    &-item {
+        @include add-before-layer();
+        padding: 15px;
+        background: white;
+        border-radius: 8px;
+        display: flex;
+        margin-bottom: 15px;
+        &:before {
+            background: currentColor;
+            width: 4px;
+            @include border-left-radius(8px);
+        }
+
+        .zone-avatar {
+            padding-right: 20px;
+            justify-self: stretch;
+        }
+        .zone-text {
+            color: $gray-800;
+            flex: 1;
+
+            .meta {
+                color: $gray-600;
+                font-size: 0.8em;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid $gray-200;
+
+                .app-name {
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    line-height: 20px;
+                }
+                .date {
+                }
+            }
+
+            .username {
+                padding: 0.5em 0;
+                .link {
+                    color: currentColor;
+                }
+            }
+        }
+    }
+}

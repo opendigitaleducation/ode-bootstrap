@@ -78,6 +78,10 @@ $primary-gradient:      linear-gradient($primary, $primary-light);
 
 $secondary:             $cyan ;
 $secondary-gradient:    linear-gradient($secondary, lighten($secondary, 10%));
+$secondary-lightest:    lighten($secondary, 35%);
+$secondary-light:       lighten($secondary, 20%);
+$secondary-dark:        darken($secondary, 10%) ;
+$secondary-darkest:     darken($secondary, 30%) ;
 
 $accent:                $orange ;
 $accent-dark:           darken($orange, 10%) ;
@@ -294,7 +298,7 @@ $line-height-sm:              1.5 ;
 $border-width:                1px ;
 $border-color:                $gray-300 ;
 
-$border-radius-sm:            2px ;
+$border-radius-sm:            5px ;
 $border-radius:               5px ;
 $border-radius-lg:            10px ;
 
@@ -305,7 +309,7 @@ $box-shadow:                  0 .5rem 1rem rgba($black, .15) ;
 $box-shadow-lg:               0 1rem 3rem rgba($black, .175) ;
 
 $component-active-color:      $white ;
-$component-active-bg:         theme-color("primary") ;
+$component-active-bg:         theme-color("secondary") ;
 
 $caret-width:                 .3em ;
 $caret-vertical-align:        $caret-width * .85 ;
@@ -540,7 +544,7 @@ $input-border-radius-lg:                $border-radius-lg ;
 $input-border-radius-sm:                $border-radius-sm ;
 
 $input-focus-bg:                        $input-bg ;
-$input-focus-border-color:              $primary ;
+$input-focus-border-color:              $secondary ;
 $input-focus-color:                     $input-color ;
 $input-focus-width:                     $input-btn-focus-width ;
 $input-focus-box-shadow:                $input-btn-focus-box-shadow ;
@@ -827,9 +831,9 @@ $dropdown-divider-bg:               $gray-200 ;
 $dropdown-divider-margin-y:         $nav-divider-margin-y ;
 $dropdown-box-shadow:               0 .5rem 1rem rgba($black, .175) ;
 
-$dropdown-link-color:               $gray-900 ;
+$dropdown-link-color:               $gray-700 ;
 $dropdown-link-hover-color:         darken($gray-900, 5%) ;
-$dropdown-link-hover-bg:            $gray-100 ;
+$dropdown-link-hover-bg:            rgba($secondary, 0.1) ;
 
 $dropdown-link-active-color:        $component-active-color ;
 $dropdown-link-active-bg:           $component-active-bg ;
@@ -1047,9 +1051,9 @@ $alert-border-radius:               $border-radius ;
 $alert-link-font-weight:            $font-weight-bold ;
 $alert-border-width:                $border-width ;
 
-$alert-bg-level:                    -3 ;
-$alert-border-level:                0 ;
-$alert-color-level:                 6 ;
+$alert-bg-level:                    -10 ;
+$alert-border-level:                -7 ;
+$alert-color-level:                 5 ;
 
 
 // Progress bars
@@ -1094,7 +1098,7 @@ $list-group-action-active-bg:       $gray-200 ;
 // Image thumbnails
 
 $thumbnail-padding:                 .25rem ;
-$thumbnail-bg:                      $body-bg ;
+$thumbnail-bg:                      $white ;
 $thumbnail-border-width:            $border-width ;
 $thumbnail-border-color:            $gray-300 ;
 $thumbnail-border-radius:           $border-radius ;
@@ -1197,3 +1201,4 @@ $positions: static, relative, absolute, fixed, sticky ;
 
 $print-page-size:                   a3 ;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") ;
+

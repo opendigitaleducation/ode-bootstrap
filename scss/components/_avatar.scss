@@ -1,21 +1,48 @@
+$avatar-size: 65px !default;
+
 .avatar {
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 50%;
-  &--20 {
-    width: 20px;
-    height: 20px;
-  }
-  &--25 {
-    width: 25px;
-    height: 25px;
-  }
-  &--50 {
-    width: 50px;
-    height: 50px;
-  }
-  &--100 {
-    width: 100px;
-    height: 100px;
-  }
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    &--20 {
+        width: 20px;
+        height: 20px;
+    }
+    &--25 {
+        width: 25px;
+        height: 25px;
+    }
+    &--50 {
+        width: 50px;
+        height: 50px;
+    }
+    &--100 {
+        width: 100px;
+        height: 100px;
+    }
+
+    &-social {
+        position: relative;
+        @include circle($avatar-size);
+        .photo {
+            img {
+                @include circle($avatar-size);
+                object-fit: cover;
+                object-position: center center;
+                border: 2px solid #dcdce6;
+                box-shadow: -2px -2px 5px 0 rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        .circle {
+            @include have-child-in-middle();
+            @include circle($avatar-size/1.8);
+            color: white;
+            font-size: $avatar-size/4;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            transform: translate(20%, 20%);
+        }
+    }
 }
