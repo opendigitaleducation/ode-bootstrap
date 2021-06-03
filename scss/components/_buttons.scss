@@ -1,0 +1,49 @@
+%btn-alt-base {
+    border-radius: 30px;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    letter-spacing: 1.08px;
+    border: 1px solid currentColor;
+    padding: 0 15px;
+    line-height: 2rem;
+    color: white;
+}
+.btn {
+    &.btn-alt {
+        @extend %btn-alt-base;
+        @include background-color-to($orange, 0.6);
+        @include add-transitions(border-color, background-color){
+            border-color: $orange;
+            background-color: $orange;
+        }
+        background-color: $deepBlue;
+        border-color: $deepBlue;
+    }
+
+    &.btn-alt-outline {
+        @extend %btn-alt-base;
+        @include add-transitions(border-color, color){
+            border-color: $orange;
+            color: $orange;
+        }
+        color: $deepBlue;
+        border: 1px solid $deepBlue;
+        background-color: transparent;
+    }
+
+    &-circle {
+        @include circle(2.5em);
+        @include have-child-in-middle;
+        @include add-transitions(color, background-color){
+            color: white;
+            background-color: $cyan;
+            text-decoration: none;
+        }
+        display: inline-flex;
+        background: $deepBlue;
+        color: white;
+        font-size: 2em;
+        
+    }
+}

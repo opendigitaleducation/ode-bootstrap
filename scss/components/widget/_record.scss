@@ -1,0 +1,16 @@
+.widget-record {
+    .widget-body {
+        display: flex;
+        align-items: center;
+        & > * {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            //max-height: 120px;
+
+            .img-fluid {
+                width: 100px;
+            }
+        }
+    }
+}

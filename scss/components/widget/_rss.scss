@@ -1,0 +1,25 @@
+//Widget RSS
+.widget-rss {
+    .rss-feed {
+        .feed-title {
+            @include append-icon("\f0d7", 1em, 15px) cursor: pointer;
+            padding: 8px $widget-padding-x;
+            background: $deepBlue;
+            color: white;
+            font-weight: 700;
+        }
+
+        .item {
+            &:nth-child(2n) {
+                background: rgba($deepBlue, 0.07);
+            }
+
+            a {
+                @include background-color-to($gray-100, 0.4s, $easeOutQuad);
+                display: block;
+                padding: 10px $widget-padding-x;
+                text-decoration: none;
+            }
+        }
+    }
+}

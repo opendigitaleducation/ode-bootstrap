@@ -1,0 +1,99 @@
+$-breakpoint-up:'lg';
+$-breakpoint-down:'md';
+
+.container-advanced {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+
+    &-wrapper {
+        max-width: 1920- (2 * 20) * 1px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+        @include media-breakpoint-down($-breakpoint-down) {
+            width: 300vw;
+            max-width: unset;
+            @include add-transitions(transform);
+        }
+    }
+
+    &-left {
+        margin: 0 20px;
+        flex: 1;
+        order: 1;
+        @include media-breakpoint-up($-breakpoint-up) {
+            max-width: 350px;
+        }
+    }
+
+    &-center {
+        margin: 0 20px;
+        flex: 1;
+        order: 2;
+        @include media-breakpoint-up($-breakpoint-up) {
+            max-width: 45%;
+        }
+    }
+    &-right {
+        margin: 0 20px;
+        flex: 1;
+        order: 3;
+        @include media-breakpoint-up($-breakpoint-up) {
+            max-width: 350px;
+        }
+    }
+
+    @include media-breakpoint-down($-breakpoint-down) {
+        &.focus-left {
+            .container-advanced-wrapper {
+                transform: translateX(0);
+            }
+        }
+        &.focus-right {
+            .container-advanced-wrapper {
+                transform: translateX(100/3 * 2% * -1);
+            }
+        }
+        &.focus-center {
+            .container-advanced-wrapper {
+                transform: translateX(100/3 * 1% * -1);
+            }
+        }
+    }
+
+    &-nav {
+        background-color: $deepBlue;
+        color: white;
+        .list-trigger {
+            display: flex;
+            justify-content: space-around;
+            overflow: hidden;
+            .trigger {
+                @include add-before-layer() {
+                    @include add-transitions(opacity, transform);
+                    background: $cyan;
+                    z-index: -1;
+                    border-radius: 50%;
+                    padding-top: 100%;
+                    height: auto;
+                    top: 50%;
+                    transform: translateY(-50%) scale(1.1);
+                    opacity: 0;
+                }
+                flex: 1;
+                align-self: center;
+                text-align: center;
+                padding: 15px;
+                font-size: 1rem;
+                z-index: 2;
+
+                &.on {
+                    &:before {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

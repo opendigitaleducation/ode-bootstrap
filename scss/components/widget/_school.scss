@@ -1,0 +1,45 @@
+//Widget établissement
+.widget-school {
+    .header {
+        padding: $widget-padding-x;
+        color: white;
+        background-position: center;
+        background-size: cover;
+        font-size: 1.5em;
+        position: relative;
+        padding-bottom: 50px;
+        margin-bottom: 25px;
+
+        .name {
+            font-weight: 700;
+        }
+        .school {
+            font-weight: 400;
+        }
+        .avatar-list {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            transform: translateY(50%);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0 $widget-padding-x;
+
+            @include media-breakpoint-down(xl) {
+                .avatar-link:nth-child(n + 4) {
+                    display: none;
+                }
+            }
+        }
+    }
+    .button-list {
+        padding: $widget-padding-x;
+        padding-bottom: 0;
+        > * {
+            margin-bottom: 1em;
+            margin-right: 0.4em;
+        }
+    }
+}

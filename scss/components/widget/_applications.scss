@@ -1,0 +1,34 @@
+.widget-applications {
+    //Widget Applications
+    .application {
+        &-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &-item {
+            width: 25%;
+            font-size: 3.2em;
+            position: relative;
+
+            a {
+                @include have-child-in-middle();
+                @include background-color-to(white, 0.8s);
+                text-decoration: none;
+                margin: 1px;
+                background: $gray-100;
+                position: relative;
+                padding-top: 100%;
+                & > i {
+                    position: absolute;
+                    top: 0;
+                    @include have-child-in-middle();
+                    @include square(100%);
+                }
+            }
+
+            @include media-breakpoint-between(sm, md) {
+                width: 100/6 * 1%;
+            }
+        }
+    }
+}

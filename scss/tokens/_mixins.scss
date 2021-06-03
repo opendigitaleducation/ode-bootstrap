@@ -52,11 +52,12 @@
         left: $left;
         transform: translateY(-50%);
         z-index: 10;
+        @content;
     }
 }
 @mixin append-icon($icon: "star", $size: 28px, $right: 0px, $color: inherit) {
     @include insert-icon($icon, $size, 50%, $color);
-    padding-right: $size*1.2;
+    padding-right: $size*1.5;
     &:before {
         position: absolute;
         top: 50%;
@@ -64,6 +65,13 @@
         right: $right;
         transform: translateY(-50%);
         z-index: 10;
+        @content;
+    }
+}
+
+@mixin set-icon-top($top:50%) {
+    &:before {
+        top: $top;
     }
 }
 
@@ -81,6 +89,7 @@
     position: relative;
     &:before {
         @include base-layer();
+        @content;
     }
 }
 
@@ -88,6 +97,7 @@
     position: relative;
     &:after {
         @include base-layer();
+        @content;
     }
 }
 
@@ -96,6 +106,7 @@
     &:before {
         @include base-layer();
         background: rgba(0, 0, 0, $opacity);
+        z-index: 1;
     }
 }
 
@@ -123,4 +134,12 @@
     &:hover {
         text-decoration: $state;
     }
+}
+
+@mixin avatar-image($size: 50px){
+    @include circle($size);
+    object-fit: cover;
+    object-position: center center;
+    border: 2px solid #dcdce6;
+    box-shadow: -2px -2px 5px 0 rgba(0, 0, 0, 0.1);
 }

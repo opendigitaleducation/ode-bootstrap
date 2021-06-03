@@ -26,11 +26,7 @@ $avatar-size: 65px !default;
         @include circle($avatar-size);
         .photo {
             img {
-                @include circle($avatar-size);
-                object-fit: cover;
-                object-position: center center;
-                border: 2px solid #dcdce6;
-                box-shadow: -2px -2px 5px 0 rgba(0, 0, 0, 0.1);
+                @include avatar-image($avatar-size);
             }
         }
 
@@ -38,11 +34,18 @@ $avatar-size: 65px !default;
             @include have-child-in-middle();
             @include circle($avatar-size/1.8);
             color: white;
-            font-size: $avatar-size/4;
+            font-size: $avatar-size/3.5;
             position: absolute;
             bottom: 0;
             right: 0;
             transform: translate(20%, 20%);
+        }
+    }
+
+    &-link {
+        display: inline-block;
+        img {
+            @include avatar-image($avatar-size);
         }
     }
 }

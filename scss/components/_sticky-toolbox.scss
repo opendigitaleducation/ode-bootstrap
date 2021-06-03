@@ -1,0 +1,20 @@
+.sticky-toolbox {
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    background: $orange;
+    color: white;
+    
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+    z-index: 10;
+
+
+    .link-tool {
+        color: white;
+        font-size: 1.5em;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+}

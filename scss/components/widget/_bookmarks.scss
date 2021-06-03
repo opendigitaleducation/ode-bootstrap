@@ -1,0 +1,19 @@
+.widget-bookmarks {
+    //Widget Liens utiles
+    .bookmark {
+        &-item {
+            @include background-color-to(rgba($deepBlue, 0.1));
+            color: $deepBlue;
+            padding: 0 $widget-padding-x;
+            border-bottom: 1px solid $gray-100;
+
+            .link {
+                @include link-decoration(none);
+                @include insert-icon("\f0c1", 0.8em, 1em);
+
+                padding: 0.4em 0 0.4em 25px;
+                display: block;
+            }
+        }
+    }
+}

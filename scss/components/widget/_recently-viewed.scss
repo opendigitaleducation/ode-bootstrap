@@ -1,0 +1,59 @@
+.widget-recently-viewed {
+    //Widget Consultations récentes
+    .recently-viewed {
+        $recently-viewed-image-width: 35;
+
+        &-item {
+            @include background-color-to($gray-100, 0.4s, $easeOutQuad);
+
+            .link-card {
+                @include link-decoration(none);
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                padding-left: $widget-padding-x;
+                position: relative;
+                border-top: 1px solid $gray-100;
+                .text {
+                    width: 100-$recently-viewed-image-width * 1%;
+                    padding-right: 0.5em;
+                }
+                .image {
+                    @include add-overlay(0.2);
+                    width: $recently-viewed-image-width * 1%;
+                    max-height: 120px;
+                    height: 5em;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center center;
+                    }
+                }
+
+                .icon-app {
+                    @include have-child-in-middle();
+                    @include add-transitions(background-color, transform);
+                    transition-timing-function: $easeOutQuad;
+                    height: 2em;
+                    width: 2em;
+                    border-radius: 190px;
+                    background-color: white;
+                    font-size: 1.75em;
+                    position: absolute;
+                    right: $recently-viewed-image-width * 1%;
+                    transform: translateX(50%);
+                    z-index: 2;
+                }
+            }
+
+            &:hover {
+                .icon-app {
+                    transform: translateX(60%);
+                    background-color: $gray-100;
+                }
+            }
+        }
+    }
+}

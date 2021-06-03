@@ -69,6 +69,9 @@ $default-duration: 0.4s;
     transition-property: $properties;
     transition-duration: $default-duration;
     transition-timing-function: $default-easing;
+    &:hover {
+        @content;
+    }
 }
 
 @mixin background-color-to($color: $primary, $duration: $default-duration, $easing: $default-easing) {

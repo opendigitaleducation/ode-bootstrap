@@ -1,0 +1,68 @@
+.widget {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 2px 2px 40px 0 rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    margin-bottom: 2em;
+    overflow: hidden;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .meta {
+        color: $gray-700;
+        font-size: 0.8em;
+    }
+
+    &-empty-message {
+        padding: 10px $widget-padding-x;
+        text-align: center;
+        display: block;
+
+    }
+
+    &-header {
+        padding: 15px $widget-padding-x 10px;
+        border-bottom: 1px solid #f5f5fb;
+        position: relative;
+
+        .subtitle {
+
+            .seemore {
+                @include color-to($orange);
+                color: inherit;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .tools {
+            @include add-transitions(opacity);
+            opacity: 0;
+            position: absolute;
+            right: 10px;
+            top: 52%;
+            width: auto;
+            transform: translateY(-50%);
+            background: white;
+
+            .tool {
+                @include color-to($gray-700);
+                padding: 5px;
+                color: $gray-400;
+                text-decoration: none;
+
+            }
+        }
+
+        &:hover {
+            .tools {
+                opacity: 1;
+            }
+        }
+    }
+}

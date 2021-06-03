@@ -1,0 +1,80 @@
+.widget-dashboard {
+    .dashboard {
+        &-choice {
+            background: $deepBlue;
+            display: flex;
+            justify-content: start;
+
+            .avatar-link {
+                @include background-color-to($cyan);
+                flex: 1;
+                color: white;
+                text-align: center;
+                padding: 10px $widget-padding-x;
+                text-decoration: none;
+
+                img {
+                    @include square(40px);
+                    display: block;
+                    margin: 0 auto 5px auto;
+                }
+
+                span {
+                    display: block;
+                }
+                
+                &:not(:last-child) {
+                    border-right: $cyan 1px solid;
+                }
+            }
+        }
+
+        &-list {
+            .item {
+                &-inner {
+                    @include background-color-to($gray-100, 0.4s, $easeOutQuad);
+                    display: flex;
+                    padding: 8px $widget-padding-x;
+                    text-decoration: none;
+                }
+                .left {
+                    //width: 40px;
+                    padding-right: $widget-padding-x;
+                }
+
+                .icon {
+                    @include circle(1.8em);
+                    @include have-child-in-middle();
+                    background: #0d5571;
+                    color: white;
+                    font-size: 1.4em;
+                }
+
+                &:nth-child(2n) {
+                    background: rgba($deepBlue, 0.07);
+                }
+
+                &:nth-child(2) {
+                    .icon {
+                        background: #167194;
+                    }
+                }
+                &:nth-child(3) {
+                    .icon {
+                        background: #1e83ac;
+                    }
+                }
+                &:nth-child(4) {
+                    .icon {
+                        background: #2e99c4;
+                    }
+                }
+                &:nth-child(5) {
+                    .icon {
+                        background: #29a3d3;
+                    }
+                }
+            }
+        }
+    }
+}
