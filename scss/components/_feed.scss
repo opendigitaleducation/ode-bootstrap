@@ -31,11 +31,17 @@ $feed-spacing: 20px !default;
 
     &-item {
         @include add-before-layer();
-        padding: 15px;
+        padding: 15px 20px;
         background: white;
         border-radius: 8px;
         display: flex;
         margin-bottom: $feed-spacing;
+        overflow: hidden;
+
+        @include media-breakpoint-down(lg){
+            padding-right: 50px;
+        }
+
         &:before {
             background: currentColor;
             width: 4px;
@@ -43,7 +49,7 @@ $feed-spacing: 20px !default;
         }
 
         .zone-avatar {
-            padding-right: 20px;
+            padding-right: 25px;
             justify-self: stretch;
         }
         .zone-text {
@@ -56,8 +62,8 @@ $feed-spacing: 20px !default;
                 display: flex;
                 justify-content: space-between;
                 border-bottom: 1px solid $gray-200;
-                padding-bottom: 0.4em ;
-                margin-bottom: 0.4em ;
+                padding-bottom: 0.4em;
+                margin-bottom: 0.4em;
 
                 .app-name {
                     text-transform: uppercase;
@@ -68,11 +74,89 @@ $feed-spacing: 20px !default;
                 }
             }
 
+            .report {
+                br:first-of-type {
+                    display: none;
+                }
+                a {
+                    @extend .link;
+                }
+            }
+
             .username {
                 //
                 .link {
                     color: currentColor;
                 }
+            }
+        }
+
+        .zone-tools {
+            @include add-transitions(transform);
+            justify-self: stretch;
+            position: absolute;
+            height: 100%;
+            background-color: white;
+            top: 0;
+            right: 0;
+            z-index: 20;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            transform: translateX(120%);
+            padding-left: 20px;
+            @include media-breakpoint-down(lg){
+                transform: translateX(100%);
+            }
+
+            .control {
+                @include prepend-icon("\f053", 1.6em) {
+                    @include add-transitions(transform);
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    padding: 0 10px;
+                    position: relative;
+                    transform-origin: center;
+                    transform: translateY(0);
+                    top: 0;
+                }
+                @include background-color-to($deepBlue);
+                @include color-to(white);
+                color: $deepBlue;
+                transform: translateX(-100%);
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                cursor: pointer;
+                background: white;
+                border-right: 1px solid;
+                border-left: 1px solid;
+                border-color: $gray-200;
+                box-shadow: -5px 0px 10px -10px rgba(0,0,0,0.25);
+            }
+
+            .link {
+                display: block;
+            }
+
+            &.open {
+                transform: translateX(0)!important;
+                .control {
+                    &:before {
+                        transform: rotate(180deg);
+                    }
+                }
+
+            }
+        }
+
+        &:hover {
+            .zone-tools {
+                transform: translateX(100%);
             }
         }
 

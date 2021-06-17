@@ -1,9 +1,71 @@
 .filters {
-  .btn {
-    color: $gray-600;
-    box-shadow: none;
-    &.inactive {
-      color: $gray-400;
+    .btn {
+        color: $gray-600;
+        box-shadow: none;
+        &.inactive {
+            color: $gray-400;
+        }
     }
-  }
+
+    &.filters-chips {
+        margin-bottom: 1em;
+        
+        &:hover {
+            background-color: transparent;
+            color: unset;
+        }
+
+        .filter {
+            @include add-transitions(background-color, color);
+            text-decoration: none;
+            font-weight: 400;
+            position: relative;
+            display: inline-block;
+            padding: 3px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            overflow: hidden;
+            border: 1px solid currentColor;
+            background-color: white;
+
+            &.visible {
+                display: block;
+            }
+
+            &.active {
+
+                //@include append-icon("\f00d", 1em, 10px, #fff);
+                background-color: currentColor!important;
+                //color: #fff;
+                //padding-right: 40px!important;
+                .icon,
+                .label {
+                    color: #fff;
+                }
+            }
+
+            .hidden-checkbox {
+                display: none;
+            }
+
+            .icon {
+                @include square(1.5em);
+                display: inline-block;
+                vertical-align: middle;
+                color: inherit;
+                z-index: 2;
+                position: relative;
+            }
+
+            .label {
+                z-index: 2;
+                position: relative;
+                font-size: 1em;
+                display: inline-block;
+                vertical-align: middle;
+                padding-top: 2px;
+            }
+
+        }
+    }
 }

@@ -44,6 +44,7 @@ $avatar-size: 65px !default;
 
     &-link {
         display: inline-block;
+        cursor: pointer;
         img {
             @include avatar-image($avatar-size);
         }

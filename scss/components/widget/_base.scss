@@ -21,7 +21,8 @@
         padding: 10px $widget-padding-x;
         text-align: center;
         display: block;
-
+        font-style: italic;
+        color: $gray-700;
     }
 
     &-header {
@@ -30,13 +31,19 @@
         position: relative;
 
         .subtitle {
-
             .seemore {
                 @include color-to($orange);
                 color: inherit;
                 &:hover {
                     text-decoration: none;
                 }
+            }
+
+            .seemore-text {
+                text-transform:initial;
+                font-weight: 400;
+                font-size: 0.8em;
+                padding-left: 0.5em;
             }
         }
 
@@ -55,7 +62,6 @@
                 padding: 5px;
                 color: $gray-400;
                 text-decoration: none;
-
             }
         }
 

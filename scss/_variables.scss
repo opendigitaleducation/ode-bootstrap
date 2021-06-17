@@ -1,5 +1,14 @@
 // Variables
 
+$modal-content-border-width:        0 ;
+
+
+$btn-border-radius:           0 ;
+$btn-border-radius-lg:        0 ;
+$btn-border-radius-sm:        0 ;
+$btn-border-width:            1px ;
+$btn-box-shadow:              none;
+
 // COLOR // black & white
 $white:    #fff ;
 $gray-100: #f0f2f4 ;
@@ -489,10 +498,10 @@ $btn-padding-x-lg:            $input-btn-padding-x-lg ;
 $btn-font-size-lg:            $input-btn-font-size-lg ;
 $btn-line-height-lg:          $input-btn-line-height-lg ;
 
-$btn-border-width:            $input-btn-border-width ;
+
 
 $btn-font-weight:             $font-weight-normal ;
-$btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .3) ;
+
 $btn-focus-width:             $input-btn-focus-width ;
 $btn-focus-box-shadow:        $input-btn-focus-box-shadow ;
 $btn-disabled-opacity:        .65 ;
@@ -503,9 +512,7 @@ $btn-link-disabled-color:     $gray-600 ;
 $btn-block-spacing-y:         .5rem ;
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius:           $border-radius ;
-$btn-border-radius-lg:        $border-radius-lg ;
-$btn-border-radius-sm:        $border-radius-sm ;
+
 
 $btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out ;
 
@@ -1013,7 +1020,7 @@ $modal-title-line-height:           $line-height-base ;
 $modal-content-color:               null ;
 $modal-content-bg:                  $white ;
 $modal-content-border-color:        rgba($black, .2) ;
-$modal-content-border-width:        $border-width ;
+
 $modal-content-border-radius:       $border-radius ;
 $modal-content-inner-border-radius: subtract($modal-content-border-radius, $modal-content-border-width) ;
 $modal-content-box-shadow-xs:       0 .25rem .5rem rgba($black, .5) ;

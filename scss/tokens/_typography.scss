@@ -2,14 +2,14 @@
 .link a {
     @include color-to($primary);
     color: $deepBlue;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
 }
 .link-discret,
 .link-discret a {
     @include color-to($deepBlue);
     color: currentColor;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
 }
 

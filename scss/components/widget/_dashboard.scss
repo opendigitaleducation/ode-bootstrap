@@ -1,14 +1,14 @@
 .widget-dashboard {
     .dashboard {
         &-choice {
-            background: $deepBlue;
+            background: white;
             display: flex;
             justify-content: start;
 
             .avatar-link {
                 @include background-color-to($cyan);
+                @include color-to(#fff);
                 flex: 1;
-                color: white;
                 text-align: center;
                 padding: 10px $widget-padding-x;
                 text-decoration: none;
@@ -21,6 +21,11 @@
 
                 span {
                     display: block;
+                }
+
+                &.active {
+                    background: $deepBlue;
+                    color: white;
                 }
                 
                 &:not(:last-child) {
