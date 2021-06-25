@@ -19,10 +19,10 @@
                 position: relative;
                 padding-top: 100%;
                 & > i {
-                    position: absolute;
-                    top: 0;
                     @include have-child-in-middle();
                     @include square(100%);
+                    position: absolute;
+                    top: 0;
                 }
             }
 

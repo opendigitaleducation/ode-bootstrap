@@ -1,20 +1,90 @@
 .sticky-toolbox {
+    @include add-transitions(transform);
     position: fixed;
     top: 100px;
     right: 0px;
-    background: $orange;
     color: white;
-    
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-
     z-index: 10;
+    transform: translateX(100%);
 
+    &.open {
+        transform: translateX(0);
+    }
 
     .link-tool {
+        position: absolute;
         color: white;
         font-size: 1.5em;
         padding: 5px 10px;
         cursor: pointer;
+        background: $primary;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        width: 50px;
+        transform: translate(-100%, 0);
+    }
+
+    .content {
+        background: $deepBlue;
+        width: 400px;
+        height: 100%;
+        padding: 20px 30px;
+    }
+
+    .title {
+        margin: 0 0 10px 0;
+        font-weight: bold;
+        &:not(:first-child) {
+            margin-top: 10px;
+        }
+    }
+
+    .bt {
+        @include background-color-to(rgba($cyan, 0.6));
+        text-align: center;
+        background: $cyan;
+        color: white;
+        display: block;
+        text-decoration: none;
+        border-radius: 0px;
+
+        &.selected {
+            background: $primary;
+        }
+    }
+
+    [class*="buttons-"] {
+        margin-right: -5px;
+        margin-left: -5px;
+
+        > .col,
+        > [class*="col-"] {
+            padding-right: 5px;
+            padding-left: 5px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .buttons-theme {
+        .bt {
+            padding: 20px 10px;
+        }
+    }
+
+    .buttons-widget {
+        .bt {
+            .inner {
+                display: block;
+                position: relative;
+                padding-top: 100%;
+            }
+            i {
+                @include have-child-in-middle();
+                @include square(100%);
+                position: absolute;
+                top: 0;
+                font-size: 2em;
+            }
+        }
     }
 }

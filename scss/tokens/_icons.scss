@@ -60,20 +60,29 @@ i[class*="ic-"] {
 .ic-chevron-right::before {
     content: "\e823";
 }
-
 .ic-grid::before {
     content: "\e940";
 }
 .ic-list::before {
     content: "\e84f";
 }
-
 .ic-folder::before {
     content: "\e846";
 }
-
 .ic-burger::before {
     content: "\e956";
+}
+.ic-rss::before {
+    content: "\e861";
+}
+.ic-signets::before {
+    content: "\e80c";
+}
+.ic-microphone::before {
+    content: "\e864";
+}
+.ic-carnet-de-bord::before {
+    content: "\e902";
 }
 
 // Icons editor

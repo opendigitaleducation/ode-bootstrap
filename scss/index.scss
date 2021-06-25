@@ -2,6 +2,7 @@
 @import "tokens/mixins";
 @import "fonts";
 
+
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
@@ -10,6 +11,12 @@
 
 #{$root-selector} {
     @import "node_modules/bootstrap/scss/bootstrap";
+
+    .flag{
+        @include square(200px);
+        background: black;
+        background-image: url('./docs/flags/4x3/fr.svg');
+    }
 
     @import "emptyscreen";
     @import "notifications";
