@@ -87,4 +87,32 @@
             }
         }
     }
+
+    .bt-lang {
+        text-align: center;
+        margin-bottom: 15px;
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+
+        .flag {
+            @include add-transitions(filter);
+            // width: 60px;
+            height: auto;
+            margin: 0 auto;
+            filter: saturate(0);
+        }
+
+        &.selected {
+            .flag {
+                filter: saturate(1);
+            }
+        }
+
+        &:hover:not(.selected) {
+            .flag {
+                filter: saturate(0.3);
+            }
+        }
+    }
 }

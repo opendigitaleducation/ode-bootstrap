@@ -12,12 +12,6 @@
 #{$root-selector} {
     @import "node_modules/bootstrap/scss/bootstrap";
 
-    .flag{
-        @include square(200px);
-        background: black;
-        background-image: url('./docs/flags/4x3/fr.svg');
-    }
-
     @import "emptyscreen";
     @import "notifications";
     @import "image-contextual-menu";
